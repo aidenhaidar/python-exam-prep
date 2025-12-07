@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Settings • Python Trainer V3</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel='stylesheet' href='/static/styles/base.css'>
+</head>
+
+<body>
+<div class='container'>
+
+<h1>⚙ Settings</h1>
+<p class='subtext'>Customize your experience</p>
+
+<div class='card'>
+<h2>Theme</h2>
+<select id='themeSelect' class='input'>
+<option value='base'>Minimal White</option>
+<option value='neon'>Neon Blue</option>
+<option value='purple'>Midnight Purple</option>
+<option value='techblue'>Tech Blue</option>
+</select>
+<button class='btn' onclick='saveTheme()'>Apply</button>
+</div>
+
+<div class='card'>
+<h2>Sound</h2>
+<label><input type='checkbox' id='soundToggle'> Enable Sound</label>
+<button class='btn' onclick='saveSound()'>Save</button>
+</div>
+
+<div class='card'>
+<h2>Profiles</h2>
+<input id='profileInput' class='input' placeholder='Enter profile name'>
+<button class='btn' onclick='saveProfile()'>Save Profile</button>
+<div id='profileList'></div>
+</div>
+
+<button class='btn' onclick="location.href='/'">Return Home</button>
+
+</div>
+<script src='/static/scripts/settings.js'></script>
+</body>
+</html>
