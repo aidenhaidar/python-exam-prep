@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard • Python Trainer V3</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel='stylesheet' href='/static/styles/base.css'>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+</head>
+
+<body>
+<div class='container'>
+
+<h1>📊 Dashboard</h1>
+<p class='subtext'>Accuracy Trend Over Time</p>
+
+<canvas id='chart' width='350' height='250'></canvas>
+
+<button class='btn' onclick="location.href='/'">Back Home</button>
+<button class='btn' onclick="clearStats()">Reset Stats</button>
+
+</div>
+<script src='/static/scripts/dashboard.js'></script>
+</body>
+</html>
