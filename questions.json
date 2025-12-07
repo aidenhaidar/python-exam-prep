@@ -1,1 +1,3302 @@
-[{"question": "Placeholder", "choices": ["A", "B", "C", "D"], "answer": "A"}]
+[
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about tuples immutable?",
+    "choices": [
+      "A) Correct behavior of tuples immutable",
+      "B) tuples immutable returns None always",
+      "C) tuples immutable modifies globals without reason",
+      "D) tuples immutable works only in recursion",
+      "E) tuples immutable deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about in operator?",
+    "choices": [
+      "A) Correct behavior of in operator",
+      "B) in operator returns None always",
+      "C) in operator modifies globals without reason",
+      "D) in operator works only in recursion",
+      "E) in operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about tuples immutable?",
+    "choices": [
+      "A) Correct behavior of tuples immutable",
+      "B) tuples immutable returns None always",
+      "C) tuples immutable modifies globals without reason",
+      "D) tuples immutable works only in recursion",
+      "E) tuples immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about replace()?",
+    "choices": [
+      "A) Correct behavior of replace()",
+      "B) replace() returns None always",
+      "C) replace() modifies globals without reason",
+      "D) replace() works only in recursion",
+      "E) replace() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about open modes r/w/a?",
+    "choices": [
+      "A) Correct behavior of open modes r/w/a",
+      "B) open modes r/w/a returns None always",
+      "C) open modes r/w/a modifies globals without reason",
+      "D) open modes r/w/a works only in recursion",
+      "E) open modes r/w/a deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about tuples immutable?",
+    "choices": [
+      "A) Correct behavior of tuples immutable",
+      "B) tuples immutable returns None always",
+      "C) tuples immutable modifies globals without reason",
+      "D) tuples immutable works only in recursion",
+      "E) tuples immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Files, what is true about open modes r/w/a?",
+    "choices": [
+      "A) Correct behavior of open modes r/w/a",
+      "B) open modes r/w/a returns None always",
+      "C) open modes r/w/a modifies globals without reason",
+      "D) open modes r/w/a works only in recursion",
+      "E) open modes r/w/a deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about symmetric difference ^?",
+    "choices": [
+      "A) Correct behavior of symmetric difference ^",
+      "B) symmetric difference ^ returns None always",
+      "C) symmetric difference ^ modifies globals without reason",
+      "D) symmetric difference ^ works only in recursion",
+      "E) symmetric difference ^ deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about global variables?",
+    "choices": [
+      "A) Correct behavior of global variables",
+      "B) global variables returns None always",
+      "C) global variables modifies globals without reason",
+      "D) global variables works only in recursion",
+      "E) global variables deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about import modules?",
+    "choices": [
+      "A) Correct behavior of import modules",
+      "B) import modules returns None always",
+      "C) import modules modifies globals without reason",
+      "D) import modules works only in recursion",
+      "E) import modules deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about global variables?",
+    "choices": [
+      "A) Correct behavior of global variables",
+      "B) global variables returns None always",
+      "C) global variables modifies globals without reason",
+      "D) global variables works only in recursion",
+      "E) global variables deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about in operator?",
+    "choices": [
+      "A) Correct behavior of in operator",
+      "B) in operator returns None always",
+      "C) in operator modifies globals without reason",
+      "D) in operator works only in recursion",
+      "E) in operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about replace()?",
+    "choices": [
+      "A) Correct behavior of replace()",
+      "B) replace() returns None always",
+      "C) replace() modifies globals without reason",
+      "D) replace() works only in recursion",
+      "E) replace() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about symmetric difference ^?",
+    "choices": [
+      "A) Correct behavior of symmetric difference ^",
+      "B) symmetric difference ^ returns None always",
+      "C) symmetric difference ^ modifies globals without reason",
+      "D) symmetric difference ^ works only in recursion",
+      "E) symmetric difference ^ deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about replace()?",
+    "choices": [
+      "A) Correct behavior of replace()",
+      "B) replace() returns None always",
+      "C) replace() modifies globals without reason",
+      "D) replace() works only in recursion",
+      "E) replace() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about in operator?",
+    "choices": [
+      "A) Correct behavior of in operator",
+      "B) in operator returns None always",
+      "C) in operator modifies globals without reason",
+      "D) in operator works only in recursion",
+      "E) in operator deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about intersection &?",
+    "choices": [
+      "A) Correct behavior of intersection &",
+      "B) intersection & returns None always",
+      "C) intersection & modifies globals without reason",
+      "D) intersection & works only in recursion",
+      "E) intersection & deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about difference -?",
+    "choices": [
+      "A) Correct behavior of difference -",
+      "B) difference - returns None always",
+      "C) difference - modifies globals without reason",
+      "D) difference - works only in recursion",
+      "E) difference - deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about import modules?",
+    "choices": [
+      "A) Correct behavior of import modules",
+      "B) import modules returns None always",
+      "C) import modules modifies globals without reason",
+      "D) import modules works only in recursion",
+      "E) import modules deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about in operator?",
+    "choices": [
+      "A) Correct behavior of in operator",
+      "B) in operator returns None always",
+      "C) in operator modifies globals without reason",
+      "D) in operator works only in recursion",
+      "E) in operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Dicts/Sets, what is true about intersection &?",
+    "choices": [
+      "A) Correct behavior of intersection &",
+      "B) intersection & returns None always",
+      "C) intersection & modifies globals without reason",
+      "D) intersection & works only in recursion",
+      "E) intersection & deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Medium) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Medium) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Medium) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about in operator?",
+    "choices": [
+      "A) Correct behavior of in operator",
+      "B) in operator returns None always",
+      "C) in operator modifies globals without reason",
+      "D) in operator works only in recursion",
+      "E) in operator deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about 2D lists?",
+    "choices": [
+      "A) Correct behavior of 2D lists",
+      "B) 2D lists returns None always",
+      "C) 2D lists modifies globals without reason",
+      "D) 2D lists works only in recursion",
+      "E) 2D lists deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about difference -?",
+    "choices": [
+      "A) Correct behavior of difference -",
+      "B) difference - returns None always",
+      "C) difference - modifies globals without reason",
+      "D) difference - works only in recursion",
+      "E) difference - deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about open modes r/w/a?",
+    "choices": [
+      "A) Correct behavior of open modes r/w/a",
+      "B) open modes r/w/a returns None always",
+      "C) open modes r/w/a modifies globals without reason",
+      "D) open modes r/w/a works only in recursion",
+      "E) open modes r/w/a deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about list * operator?",
+    "choices": [
+      "A) Correct behavior of list * operator",
+      "B) list * operator returns None always",
+      "C) list * operator modifies globals without reason",
+      "D) list * operator works only in recursion",
+      "E) list * operator deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about open modes r/w/a?",
+    "choices": [
+      "A) Correct behavior of open modes r/w/a",
+      "B) open modes r/w/a returns None always",
+      "C) open modes r/w/a modifies globals without reason",
+      "D) open modes r/w/a works only in recursion",
+      "E) open modes r/w/a deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about default parameters?",
+    "choices": [
+      "A) Correct behavior of default parameters",
+      "B) default parameters returns None always",
+      "C) default parameters modifies globals without reason",
+      "D) default parameters works only in recursion",
+      "E) default parameters deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about difference -?",
+    "choices": [
+      "A) Correct behavior of difference -",
+      "B) difference - returns None always",
+      "C) difference - modifies globals without reason",
+      "D) difference - works only in recursion",
+      "E) difference - deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about 2D lists?",
+    "choices": [
+      "A) Correct behavior of 2D lists",
+      "B) 2D lists returns None always",
+      "C) 2D lists modifies globals without reason",
+      "D) 2D lists works only in recursion",
+      "E) 2D lists deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about import modules?",
+    "choices": [
+      "A) Correct behavior of import modules",
+      "B) import modules returns None always",
+      "C) import modules modifies globals without reason",
+      "D) import modules works only in recursion",
+      "E) import modules deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about symmetric difference ^?",
+    "choices": [
+      "A) Correct behavior of symmetric difference ^",
+      "B) symmetric difference ^ returns None always",
+      "C) symmetric difference ^ modifies globals without reason",
+      "D) symmetric difference ^ works only in recursion",
+      "E) symmetric difference ^ deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about readlines()?",
+    "choices": [
+      "A) Correct behavior of readlines()",
+      "B) readlines() returns None always",
+      "C) readlines() modifies globals without reason",
+      "D) readlines() works only in recursion",
+      "E) readlines() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about intersection &?",
+    "choices": [
+      "A) Correct behavior of intersection &",
+      "B) intersection & returns None always",
+      "C) intersection & modifies globals without reason",
+      "D) intersection & works only in recursion",
+      "E) intersection & deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about symmetric difference ^?",
+    "choices": [
+      "A) Correct behavior of symmetric difference ^",
+      "B) symmetric difference ^ returns None always",
+      "C) symmetric difference ^ modifies globals without reason",
+      "D) symmetric difference ^ works only in recursion",
+      "E) symmetric difference ^ deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about global variables?",
+    "choices": [
+      "A) Correct behavior of global variables",
+      "B) global variables returns None always",
+      "C) global variables modifies globals without reason",
+      "D) global variables works only in recursion",
+      "E) global variables deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about intersection &?",
+    "choices": [
+      "A) Correct behavior of intersection &",
+      "B) intersection & returns None always",
+      "C) intersection & modifies globals without reason",
+      "D) intersection & works only in recursion",
+      "E) intersection & deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about 2D lists?",
+    "choices": [
+      "A) Correct behavior of 2D lists",
+      "B) 2D lists returns None always",
+      "C) 2D lists modifies globals without reason",
+      "D) 2D lists works only in recursion",
+      "E) 2D lists deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about import modules?",
+    "choices": [
+      "A) Correct behavior of import modules",
+      "B) import modules returns None always",
+      "C) import modules modifies globals without reason",
+      "D) import modules works only in recursion",
+      "E) import modules deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about import modules?",
+    "choices": [
+      "A) Correct behavior of import modules",
+      "B) import modules returns None always",
+      "C) import modules modifies globals without reason",
+      "D) import modules works only in recursion",
+      "E) import modules deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about file iteration?",
+    "choices": [
+      "A) Correct behavior of file iteration",
+      "B) file iteration returns None always",
+      "C) file iteration modifies globals without reason",
+      "D) file iteration works only in recursion",
+      "E) file iteration deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about global variables?",
+    "choices": [
+      "A) Correct behavior of global variables",
+      "B) global variables returns None always",
+      "C) global variables modifies globals without reason",
+      "D) global variables works only in recursion",
+      "E) global variables deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about mutability?",
+    "choices": [
+      "A) Correct behavior of mutability",
+      "B) mutability returns None always",
+      "C) mutability modifies globals without reason",
+      "D) mutability works only in recursion",
+      "E) mutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about repetition * operator?",
+    "choices": [
+      "A) Correct behavior of repetition * operator",
+      "B) repetition * operator returns None always",
+      "C) repetition * operator modifies globals without reason",
+      "D) repetition * operator works only in recursion",
+      "E) repetition * operator deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about local variables?",
+    "choices": [
+      "A) Correct behavior of local variables",
+      "B) local variables returns None always",
+      "C) local variables modifies globals without reason",
+      "D) local variables works only in recursion",
+      "E) local variables deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about intersection &?",
+    "choices": [
+      "A) Correct behavior of intersection &",
+      "B) intersection & returns None always",
+      "C) intersection & modifies globals without reason",
+      "D) intersection & works only in recursion",
+      "E) intersection & deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about find()?",
+    "choices": [
+      "A) Correct behavior of find()",
+      "B) find() returns None always",
+      "C) find() modifies globals without reason",
+      "D) find() works only in recursion",
+      "E) find() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about return values?",
+    "choices": [
+      "A) Correct behavior of return values",
+      "B) return values returns None always",
+      "C) return values modifies globals without reason",
+      "D) return values works only in recursion",
+      "E) return values deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about indexing?",
+    "choices": [
+      "A) Correct behavior of indexing",
+      "B) indexing returns None always",
+      "C) indexing modifies globals without reason",
+      "D) indexing works only in recursion",
+      "E) indexing deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about d[key] lookup?",
+    "choices": [
+      "A) Correct behavior of d[key] lookup",
+      "B) d[key] lookup returns None always",
+      "C) d[key] lookup modifies globals without reason",
+      "D) d[key] lookup works only in recursion",
+      "E) d[key] lookup deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about value-returning functions?",
+    "choices": [
+      "A) Correct behavior of value-returning functions",
+      "B) value-returning functions returns None always",
+      "C) value-returning functions modifies globals without reason",
+      "D) value-returning functions works only in recursion",
+      "E) value-returning functions deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about tuples immutable?",
+    "choices": [
+      "A) Correct behavior of tuples immutable",
+      "B) tuples immutable returns None always",
+      "C) tuples immutable modifies globals without reason",
+      "D) tuples immutable works only in recursion",
+      "E) tuples immutable deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Files, what is true about readline()?",
+    "choices": [
+      "A) Correct behavior of readline()",
+      "B) readline() returns None always",
+      "C) readline() modifies globals without reason",
+      "D) readline() works only in recursion",
+      "E) readline() deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about union |?",
+    "choices": [
+      "A) Correct behavior of union |",
+      "B) union | returns None always",
+      "C) union | modifies globals without reason",
+      "D) union | works only in recursion",
+      "E) union | deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Files, what is true about csv reader?",
+    "choices": [
+      "A) Correct behavior of csv reader",
+      "B) csv reader returns None always",
+      "C) csv reader modifies globals without reason",
+      "D) csv reader works only in recursion",
+      "E) csv reader deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about concatenation?",
+    "choices": [
+      "A) Correct behavior of concatenation",
+      "B) concatenation returns None always",
+      "C) concatenation modifies globals without reason",
+      "D) concatenation works only in recursion",
+      "E) concatenation deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about sum/max/min?",
+    "choices": [
+      "A) Correct behavior of sum/max/min",
+      "B) sum/max/min returns None always",
+      "C) sum/max/min modifies globals without reason",
+      "D) sum/max/min works only in recursion",
+      "E) sum/max/min deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about read()?",
+    "choices": [
+      "A) Correct behavior of read()",
+      "B) read() returns None always",
+      "C) read() modifies globals without reason",
+      "D) read() works only in recursion",
+      "E) read() deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Files, what is true about write()?",
+    "choices": [
+      "A) Correct behavior of write()",
+      "B) write() returns None always",
+      "C) write() modifies globals without reason",
+      "D) write() works only in recursion",
+      "E) write() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Files, what is true about string-to-int conversion?",
+    "choices": [
+      "A) Correct behavior of string-to-int conversion",
+      "B) string-to-int conversion returns None always",
+      "C) string-to-int conversion modifies globals without reason",
+      "D) string-to-int conversion works only in recursion",
+      "E) string-to-int conversion deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about 2D lists?",
+    "choices": [
+      "A) Correct behavior of 2D lists",
+      "B) 2D lists returns None always",
+      "C) 2D lists modifies globals without reason",
+      "D) 2D lists works only in recursion",
+      "E) 2D lists deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about mutable vs immutable?",
+    "choices": [
+      "A) Correct behavior of mutable vs immutable",
+      "B) mutable vs immutable returns None always",
+      "C) mutable vs immutable modifies globals without reason",
+      "D) mutable vs immutable works only in recursion",
+      "E) mutable vs immutable deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about scope?",
+    "choices": [
+      "A) Correct behavior of scope",
+      "B) scope returns None always",
+      "C) scope modifies globals without reason",
+      "D) scope works only in recursion",
+      "E) scope deletes memory automatically"
+    ],
+    "answer": "E"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about len(d)?",
+    "choices": [
+      "A) Correct behavior of len(d)",
+      "B) len(d) returns None always",
+      "C) len(d) modifies globals without reason",
+      "D) len(d) works only in recursion",
+      "E) len(d) deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about copying lists?",
+    "choices": [
+      "A) Correct behavior of copying lists",
+      "B) copying lists returns None always",
+      "C) copying lists modifies globals without reason",
+      "D) copying lists works only in recursion",
+      "E) copying lists deletes memory automatically"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about 2D lists?",
+    "choices": [
+      "A) Correct behavior of 2D lists",
+      "B) 2D lists returns None always",
+      "C) 2D lists modifies globals without reason",
+      "D) 2D lists works only in recursion",
+      "E) 2D lists deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about tuples immutable?",
+    "choices": [
+      "A) Correct behavior of tuples immutable",
+      "B) tuples immutable returns None always",
+      "C) tuples immutable modifies globals without reason",
+      "D) tuples immutable works only in recursion",
+      "E) tuples immutable deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Functions, what is true about recursion?",
+    "choices": [
+      "A) Correct behavior of recursion",
+      "B) recursion returns None always",
+      "C) recursion modifies globals without reason",
+      "D) recursion works only in recursion",
+      "E) recursion deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about immutability?",
+    "choices": [
+      "A) Correct behavior of immutability",
+      "B) immutability returns None always",
+      "C) immutability modifies globals without reason",
+      "D) immutability works only in recursion",
+      "E) immutability deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Dicts/Sets, what is true about keys/values/items()?",
+    "choices": [
+      "A) Correct behavior of keys/values/items()",
+      "B) keys/values/items() returns None always",
+      "C) keys/values/items() modifies globals without reason",
+      "D) keys/values/items() works only in recursion",
+      "E) keys/values/items() deletes memory automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "(Hard) In Lists/Tuples, what is true about slicing?",
+    "choices": [
+      "A) Correct behavior of slicing",
+      "B) slicing returns None always",
+      "C) slicing modifies globals without reason",
+      "D) slicing works only in recursion",
+      "E) slicing deletes memory automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "(Hard) In Strings, what is true about split()?",
+    "choices": [
+      "A) Correct behavior of split()",
+      "B) split() returns None always",
+      "C) split() modifies globals without reason",
+      "D) split() works only in recursion",
+      "E) split() deletes memory automatically"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "(Hard) In Files, what is true about open modes r/w/a?",
+    "choices": [
+      "A) Correct behavior of open modes r/w/a",
+      "B) open modes r/w/a returns None always",
+      "C) open modes r/w/a modifies globals without reason",
+      "D) open modes r/w/a works only in recursion",
+      "E) open modes r/w/a deletes memory automatically"
+    ],
+    "answer": "C"
+  }
+]
