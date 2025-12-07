@@ -1,0 +1,8 @@
+
+{
+    "What is a local variable?": ["A) Global","B) Stored permanently","C) Numeric only","D) Only inside function","E) Temporary reference","D"],
+    "readline() does what?": ["A) Reads whole file","B) Reads 1 line","C) Deletes file","D) Searches text","E) Converts to int","B"],
+    "Strings are:": ["A) Mutable","B) Numbers","C) Immutable","D) Automatic lists","E) Detected dynamically","C"],
+    "Which copies a list?": ["A) new = old","B) new = old.copy","C) new = old[:]","D) new = duplicate()","E) cannot copy","C"],
+    "What does union of sets return?": ["A) Common values only","B) Only s1","C) All values no duplicates","D) Only numbers","E) Subtracts items","C"]
+}
